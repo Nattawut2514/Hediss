@@ -29,16 +29,26 @@ p {
   background-color: #c72d61;
 }
 .btn-facebook {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background-color: #1877f2;
   color: white;
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
   transition: background-color 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .btn-facebook:hover {
-  background-color: #0d5fd5;
+  background-color: #145ecf;
+}
+
+.icon-facebook {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
