@@ -14,3 +14,17 @@ p {
   color: #555;
   font-size: 20px;
 }
+.btn-follow {
+  display: inline-block;
+  background-color: #e1306c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-follow:hover {
+  background-color: #c72d61;
+}
