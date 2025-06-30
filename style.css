@@ -52,3 +52,28 @@ p {
   margin-right: 10px;
   vertical-align: middle;
 }
+.btn-tiktok {
+  display: inline-flex;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.btn-tiktok:hover {
+  background-color: #111;
+  transform: translateY(-2px);
+}
+
+.icon-tiktok {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  filter: invert(1); /* เปลี่ยนโลโก้ TikTok ให้สีขาวบนปุ่มดำ */
+}
